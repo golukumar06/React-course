@@ -29,7 +29,7 @@ function Github(){
 /*  another method to fetch api and extract data by async await */
 
 export const githubInfo = async () =>{
-    const response = await fetch("https://api.github.com/users/golukumar06")
+    const response = await fetch("https://api.github.com/users/nitin0625")
     return response.json()
 }
 
